@@ -1,0 +1,278 @@
+html{
+	height; 100%;
+}
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	background: url("../images/header.png") no-repeat;
+	background-size: 100%;
+	min-width: 980px;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 3em;
+}
+
+a {
+		text-decoration: none;
+}
+
+/*.container {
+	min-height: 100%;
+	position: relative;
+}*/
+
+header {
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+}
+
+nav {
+	background-color: rgba(128, 128, 128, 0.51);
+	width: 100%;
+	display: inline-block;
+}
+
+.main_nav {
+	display: inline-block;
+	float: right;
+	margin-right: 5px
+}
+
+.main_nav li {
+	color: white;
+	padding: 10px;
+	margin: 10px 5px;
+	float: left;
+}
+
+.main_nav a {
+	color: white;
+}
+
+.main_nav a:hover {
+	color: #4e4e4e;
+}
+
+.logo {
+	width: 200px;
+	position: absolute;
+	left:0;
+	top: 5px;
+	margin-left: 20px;
+}
+
+.main_content {
+	margin: 5% auto;
+	width: 100%;
+	min-width: 980px;
+}
+
+.main_page {
+	width: 65%;
+	margin: 10% auto;
+}
+
+video {
+	margin: 25px 25px 35px;
+	width: 375px;
+	display: inline-block;
+	float: left;
+}
+
+article {
+	clear: both;
+	display: inline-block;
+	float: right;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin: 5px auto;
+	width: 350px;
+}
+
+.call_to_action {
+	display: inline-block;
+	margin: 40px 20px;
+	min-width: 255px;
+}
+
+#participate, #volunteer {
+	clear: both;
+	padding: 10px 15px;
+	margin: 20px 35px;
+	background-color: #1d72ac;
+	color: white;
+	border-radius: 6px;
+}
+
+.call_to_action a {
+	color: white;
+}
+blockquote {
+	clear: both;
+	font-size: 1.5em;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+	margin: 20px auto;
+	width: 60%;
+	border-bottom: 2px black solid;
+	text-align: center;
+	padding: 10px;
+}
+
+/*blockquote:first-letter {
+font-size: 2em;
+}*/
+
+/*blockquote:first-line { 
+	line-height: 100%; 
+}*/
+
+em {
+	font-style: italic;
+}
+
+.info {
+	margin-top: 50px;
+}
+.skiers_pic {
+	width: 375px;
+	float: right;
+	margin: 10px 25px 10px 65px;
+	border-radius: 10px;
+}
+
+article.info {
+background-color: #c2c2c2;
+width: 100%;
+padding: 30px;
+}
+
+p {
+	margin-top: 45px;
+	margin-left: 155px;
+}
+
+.upcoming_events {
+	width: 80%;
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.upcoming_events h2{
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 35px auto 10px;
+}
+
+.event_photos img {
+	height: 200px;
+	margin: 20px;
+}
+
+.event_photos ul {
+	display: inline-block;
+	padding-bottom: 50px;
+	border-bottom: 2px black solid;
+}
+
+.event_photos li {
+	float: left;
+}
+
+.upcoming_events p {
+	margin: 0 145px 35px 0;
+}
+
+#contact_form {
+	clear: both;
+	width: 50%;
+	margin: auto;
+	background-color: #c2c2c2;
+	padding: 10px 40px 40px 40px;
+}
+
+#contact_form p {
+	padding: 15px;
+	margin: 0;
+}
+
+input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+}
+
+textarea {
+width:375px;
+height:150px;
+}
+
+textarea.comment {
+display:block;
+}
+
+input[type="submit"], input[type="reset"] {
+width:100px;
+background:#09C;
+color:#fff;
+height:30px;
+width: 75px;
+border-radius: 6px;
+border: 1p solid #999;
+display: inline;
+padding: 5px;
+margin: 0 0 10px 0;
+}
+
+input:hover {
+background:#fff;
+color:#09C;
+}
+
+textarea:focus, input:focus {
+border: 1px solid #09C;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 3em;
+	background-color: #c2c2c2;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}
+
+footer ul {
+	margin: 0 auto;
+	width: 60%;
+	position: relative;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color:white;
+}
+
+footer a:hover {
+	color: #4e4e4e;
+}
+
+
+
+
