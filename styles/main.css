@@ -80,6 +80,11 @@ video {
 	width: 375px;
 	display: inline-block;
 	float: left;
+	background:transparent url('../media/poster.png') no-repeat 0 0; 
+ -webkit-background-size:cover; 
+ -moz-background-size:cover; 
+ -o-background-size:cover; 
+ background-size:cover;
 }
 
 article {
